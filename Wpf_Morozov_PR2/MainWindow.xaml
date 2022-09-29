@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button x:Name="Button1" Width="60" Height="30" Background="LightGray"
-                Content="Hello" Click="button1_click"/>
+
+        <ToggleButton Click="Togglebutton_click">Закрыть соединение</ToggleButton>
+     
     </Grid>
 </Window>

@@ -29,5 +29,10 @@ namespace Wpf_Morozov_PR2
         {
             MessageBox.Show("Кнопка нажата");
         }
+
+        private void ToggleButton_Checked(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Состояние кнопки: " + (sender as System.Windows.Controls.Primitives.ToggleButton).IsChecked);
+        }
     }
 }
