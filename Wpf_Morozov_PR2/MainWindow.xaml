@@ -8,7 +8,7 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
-        <ToggleButton Click="Togglebutton_click">Закрыть соединение</ToggleButton>
+        <ToggleButton Click="ToggleButton_Click" Checked="ToggleButton_Checked">Закрыть соединение</ToggleButton>
      
     </Grid>
 </Window>
